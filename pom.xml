@@ -3,9 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>uk.co.wolfhaus</groupId>
-        <artifactId>mssc-brewery-bom</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <groupId>com.github.sfg-beer-works</groupId>
+        <artifactId>sfg-brewery-bom</artifactId>
+        <version>1.0.23</version>
     </parent>
 
     <groupId>guru.springframework</groupId>
@@ -31,12 +31,6 @@
             <organization>Spring Framework Guru</organization>
         </developer>
     </developers>
-
-    <properties>
-        <java.version>11</java.version>
-        <maven.compiler.source>${java.version}</maven.compiler.source>
-        <maven.compiler.target>${java.version}</maven.compiler.target>
-    </properties>
 
     <dependencies>
         <dependency>
